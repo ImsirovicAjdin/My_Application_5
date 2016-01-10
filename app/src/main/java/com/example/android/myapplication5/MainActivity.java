@@ -1,5 +1,6 @@
 package com.example.android.myapplication5;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
@@ -12,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = new TextView(this);
         textView.setText("Wow!");
         textView.setTextSize(56);
+        textView.setTextColor(Color.GREEN);
+        textView. setMaxLines(2);
 
         setContentView(textView);
     }
